@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 30%;
+  height: 30%;
+  padding-left: 20px;
+}
+.navigation {
+  display: flex;
+  padding-right: 20px;
+}
+.navigation > p {
+  color: #6C6C6C;
+  padding: 8px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.apps {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.text {
+  text-align: center;
+  padding-top: 180px;
+  padding-bottom: 180px;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 55px;
+  text-align: center;
+  color: #fefefe
+}
+.maintext {
+  background-image: url("../images/man-1915351.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.description {
+  display: flex;
+  background-color: #F5F5F5;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+.img {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+.thinslices {
+  width: 250px;
+}
+.brands {
+  width: 190px;
+}
+@media (max-width: 640px) {
+  .maintext {
+    background: black;
+  }
+  .description {
+    display: block;
+    width: 100%
+  }
+}
